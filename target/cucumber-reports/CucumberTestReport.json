@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Testing Components of DemoQA page",
+        "description": "",
+        "id": "demoqa-tests;testing-components-of-demoqa-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28127952400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to \"https://demoqa.com/\" site",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demoqa.com/",
+                  "offset": 19
+                }
+              ],
+              "location": "HomePageSteps.user_navigates_to_site(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \"HTML Contact Form\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HTML Contact Form",
+                  "offset": 16
+                }
+              ],
+              "location": "HomePageSteps.user_clicks_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "corresponding \"HTML Contact Form\" page should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HTML Contact Form",
+                  "offset": 15
+                }
+              ],
+              "location": "HomePageSteps.corresponding_page_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "DemoQA Tests",
+    "description": "",
+    "id": "demoqa-tests",
+    "keyword": "Feature",
+    "uri": "DemoQA.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
