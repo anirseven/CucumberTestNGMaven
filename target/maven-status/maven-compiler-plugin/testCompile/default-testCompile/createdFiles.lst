@@ -1,2 +1,2 @@
-runner\TestRunner.class
-stepDefs\HomePageSteps.class
+runner/TestRunner.class
+stepDefs/HomePageSteps.class

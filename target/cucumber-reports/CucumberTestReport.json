@@ -3,24 +3,24 @@
     "line": 2,
     "elements": [
       {
-        "line": 6,
+        "line": 5,
         "name": "Testing Components of DemoQA page",
         "description": "",
-        "id": "demoqa-tests;testing-components-of-demoqa-page",
+        "id": "qaclickjet-tests;testing-components-of-demoqa-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 28127952400,
+              "duration": 8136141364,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user navigates to \"https://demoqa.com/\" site",
+            "line": 6,
+            "name": "user navigates to \"https://rahulshettyacademy.com/dropdownsPractise/\" site",
             "match": {
               "arguments": [
                 {
-                  "val": "https://demoqa.com/",
+                  "val": "https://rahulshettyacademy.com/dropdownsPractise/",
                   "offset": 19
                 }
               ],
@@ -30,54 +30,54 @@
           },
           {
             "result": {
-              "duration": 200600,
+              "duration": 5056550372,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user clicks on \"HTML Contact Form\"",
+            "line": 7,
+            "name": "user enters booking details",
             "match": {
-              "arguments": [
-                {
-                  "val": "HTML Contact Form",
-                  "offset": 16
-                }
-              ],
-              "location": "HomePageSteps.user_clicks_on(String)"
+              "location": "HomePageSteps.user_enters_booking_details()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 152400,
+              "duration": 1495811191,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "capture screenshot",
+            "match": {
+              "location": "HomePageSteps.capture_screenshot()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 205134296,
               "status": "passed"
             },
             "line": 9,
-            "name": "corresponding \"HTML Contact Form\" page should be displayed",
+            "name": "close browser",
             "match": {
-              "arguments": [
-                {
-                  "val": "HTML Contact Form",
-                  "offset": 15
-                }
-              ],
-              "location": "HomePageSteps.corresponding_page_should_be_displayed(String)"
+              "location": "HomePageSteps.close_browser()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "line": 5,
+            "line": 4,
             "name": "@tag1"
           }
         ]
       }
     ],
-    "name": "DemoQA Tests",
+    "name": "QAClickJet Tests",
     "description": "",
-    "id": "demoqa-tests",
+    "id": "qaclickjet-tests",
     "keyword": "Feature",
-    "uri": "DemoQA.feature",
+    "uri": "QAClickJet.feature",
     "tags": [
       {
         "line": 1,

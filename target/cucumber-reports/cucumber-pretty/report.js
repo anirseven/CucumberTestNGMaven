@@ -1,9 +1,9 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DemoQA.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("QAClickJet.feature");
 formatter.feature({
   "line": 2,
-  "name": "DemoQA Tests",
+  "name": "QAClickJet Tests",
   "description": "",
-  "id": "demoqa-tests",
+  "id": "qaclickjet-tests",
   "keyword": "Feature",
   "tags": [
     {
@@ -13,71 +13,71 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 6,
+  "line": 5,
   "name": "Testing Components of DemoQA page",
   "description": "",
-  "id": "demoqa-tests;testing-components-of-demoqa-page",
+  "id": "qaclickjet-tests;testing-components-of-demoqa-page",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 5,
+      "line": 4,
       "name": "@tag1"
     }
   ]
 });
 formatter.step({
-  "line": 7,
-  "name": "user navigates to \"https://demoqa.com/\" site",
+  "line": 6,
+  "name": "user navigates to \"https://rahulshettyacademy.com/dropdownsPractise/\" site",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 8,
-  "name": "user clicks on \"HTML Contact Form\"",
+  "line": 7,
+  "name": "user enters booking details",
   "keyword": "When "
 });
 formatter.step({
-  "line": 9,
-  "name": "corresponding \"HTML Contact Form\" page should be displayed",
+  "line": 8,
+  "name": "capture screenshot",
   "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "close browser",
+  "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://demoqa.com/",
+      "val": "https://rahulshettyacademy.com/dropdownsPractise/",
       "offset": 19
     }
   ],
   "location": "HomePageSteps.user_navigates_to_site(String)"
 });
 formatter.result({
-  "duration": 28127952400,
+  "duration": 8136141364,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "HTML Contact Form",
-      "offset": 16
-    }
-  ],
-  "location": "HomePageSteps.user_clicks_on(String)"
+  "location": "HomePageSteps.user_enters_booking_details()"
 });
 formatter.result({
-  "duration": 200600,
+  "duration": 5056550372,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "HTML Contact Form",
-      "offset": 15
-    }
-  ],
-  "location": "HomePageSteps.corresponding_page_should_be_displayed(String)"
+  "location": "HomePageSteps.capture_screenshot()"
 });
 formatter.result({
-  "duration": 152400,
+  "duration": 1495811191,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HomePageSteps.close_browser()"
+});
+formatter.result({
+  "duration": 205134296,
   "status": "passed"
 });
 });
